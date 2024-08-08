@@ -1,0 +1,7 @@
+:root{
+  --baywa-green: #0f8345;
+}
+
+*{
+  background-color: var(--baywa-green);
+}
