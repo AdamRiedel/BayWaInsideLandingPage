@@ -2,6 +2,12 @@
   --baywa-green: #0f8345;
 }
 
+*{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "BayWa-sans-Medium";
   src: url("fonts/BayWaSansWeb-Medium.woff");
@@ -19,7 +25,6 @@ header{
   position: relative;
   box-shadow: -1px -1px -10px -2px #829b96;
   display: block;
-  box-sizing: inherit;
   max-width: 100%;
 
   a{
@@ -36,9 +41,13 @@ header{
     background: #0f8345 no-repeat center;
     background-size: contain;
     height: 56px;
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+
+    .grid-container{
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem;
+      max-width: 75rem;
+      margin: 0 auto;
+    }
   }
 
   .topbarItem:first-child{
@@ -56,7 +65,23 @@ header{
     padding: 0 20px;
     text-align: center;
   }
+
+  .top-navigation{
+    padding: 17px 0 6px 0;
+    font-family: "BayWa-sans-Book", Arial, Helvetica, Verdana, sans-serif;
+    color: #008c46;
+    font-size: 1.2rem;
+    padding-top: 23px;
+
+    .grid-container{
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem;
+      max-width: 75rem;
+      margin: 0 auto;
+    }
+  }
 }
+
 
 footer{
   background-color: #333;
