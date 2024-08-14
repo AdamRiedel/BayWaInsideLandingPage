@@ -24,7 +24,7 @@ header{
   margin: 0 0 1.563rem 0;
   position: relative;
   box-shadow: -1px -1px -10px -2px #829b96;
-  display: block;
+  flex-direction: block;
   max-width: 100%;
 
   a{
@@ -47,23 +47,24 @@ header{
       padding-left: 0.9375rem;
       max-width: 75rem;
       margin: 0 auto;
-    }
-  }
+      display: flex;
+      flex-direction: row;
 
-  .topbarItem:first-child{
-    border-left: none;
-    margin-left: -15px;
+      img:first-child{
+        border: none;
+      } 
+      img{ 
+        height: 56px;
+        width: auto;
+        border-left: 1px solid #fff;
+      }
+    }
   }
 
   .topbarItem{
     color: #fff;
-    float: left;
-    display: block;
-    border-left: 1px solid #fff;
     line-height: 56px;
-    height: 56px;
     padding: 0 20px;
-    text-align: center;
   }
 
   .top-navigation{
