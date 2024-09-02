@@ -1,68 +1,77 @@
 header{
-  margin-bottom: 0px;
-  background: white;
-  margin: 0 0 1.563rem 0;
+  background: var(--baywa-green);
   position: relative;
-  box-shadow: -1px -1px -10px -2px #829b96;
-  flex-direction: block;
-  max-width: 100%;
-
-  a{
-    text-decoration: none;
-    cursor: pointer;
-
-    font-family: "BayWa-sans-Medium", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-
-    background-color: transparent;
-  }
+  box-shadow: -1px -1px 10px -2px #829b96;
+  margin: 0 0 1.563rem 0;
+  display: block;
+  box-sizing: inherit;
 
   .topbar{
-    background: #0f8345 no-repeat center;
-    background-size: contain;
     height: 56px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 0 auto;
+    max-width: 75rem;    
 
-    .grid-container{
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem;
-      max-width: 75rem;
-      margin: 0 auto;
+    .topbar-Item{
+      float: left;
       display: flex;
-      flex-direction: row;
+      height: 56px;
+      border-left: 1px solid white;
+      padding: 0 20px;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
 
-      img:first-child{
-        border: none;
-      } 
-      img{ 
-        height: 56px;
-        width: auto;
-        border-left: 1px solid #fff;
+      img{
+        height: 2rem;
+        filter: none;
+        transition: filter 0.3s;
+      }
+      
+      a{
+        text-decoration: none;
+        font-size: 1rem;
+        cursor: pointer;
+        color: white;
+      }
+
+      &:hover{
+        background-color: white;
+        a{
+          color: grey;
+        }
+
+        img{
+          filter: grayscale(100%) brightness(50%);
+        }
       }
     }
-  }
-
-  .topbarItem{
-    color: #fff;
-    line-height: 56px;
-    padding: 0 20px;
+    .topbar-Item:first-child{
+      border-left: none;
+    }
   }
 
   .top-navigation{
-    color: #0f8345;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
+    background-color: white;
+    padding: 17px 0 6px 0;
+    margin: 0 auto;
+    
+    .navigation-container{
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
 
-    img{
-      background-color: #0f8345;
-      height: 24px;
-      width: 24px;
-    }
-    p{
-      font-family: "BayWa-sans-Medium", Arial, Helvetica, sans-serif;
-      padding: 12px;
-      font-size: 20px;
+      img{
+        width: 110px;
+        height: 60px;
+      }
+  
+      p{
+        font-size: 1.2rem;
+        font-family: BayWa-sans-Book;
+      }
     }
   }
 }
