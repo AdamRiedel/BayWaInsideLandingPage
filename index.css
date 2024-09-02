@@ -88,6 +88,15 @@ header{
 }
 
 body{
+  font-family: "BayWa-sans-Medium";
+  font-size: 16px;
+  .hero-section{
+    .welcome-caption{
+      font-size: 50px;
+    }
+  }
+  color: var(--baywa-green);
+  text-align: center;
   .screenshots {
     display: flex;
     flex-direction: row; 
@@ -97,12 +106,14 @@ body{
     height: auto;
     padding: 10px; 
     box-sizing: border-box;
-  }
-  img{
-    width: 33.33%;
-    margin: 2px; 
-    height: auto;
-    object-fit: cover;
+
+    img{
+      margin: 2px; 
+      height: 50%;
+      width: auto;
+      padding: 32px;
+      object-fit: cover;
+    }
   }
 
   .download-section {
