@@ -1,9 +1,26 @@
 body{
   font-family: "BayWa-sans-Medium";
   font-size: 16px;
+  background-color: var(--background);
   .hero-section{
     .welcome-caption{
-      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1.25rem;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+
+      img{
+        border-radius: 0.5rem;
+      }
+
+      h1{
+        font-size: 64px;
+        font-family: BayWa-sans-SemiBold;
+        font-weight: 500;
+      }
     }
   }
   color: var(--baywa-green);
