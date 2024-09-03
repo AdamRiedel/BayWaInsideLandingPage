@@ -19,3 +19,8 @@
   font-family: "BayWa-sans-Book";
   src: url("fonts/BayWaSansWeb-Book.woff");
 }
+
+@font-face {
+  font-family: "BayWa-sans-SemiBold";
+  src: url("fonts/BayWaSansWeb-SemiBold.woff");
+}
