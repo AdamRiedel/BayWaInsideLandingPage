@@ -93,4 +93,51 @@ body{
     color: var(--baywa-green);
     border: none;
   }
+
+  .faq-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem; 
+    h5{
+      font-size: 2rem;
+    }
+    .faq-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      .faq-steps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 27.4375rem;
+        height: 33.5rem;
+        background-color: white;
+        gap: 2rem;
+
+        .header{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+        }
+
+        .faq-text{
+          text-align: justify;
+          display: block;
+          text-align: justify;
+
+          width: 20.8125rem;
+          height: 24.6875rem;
+          color: var(--baywa-darkgrey);
+        }
+      }
+    }
+  }
 }
