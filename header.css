@@ -1,10 +1,7 @@
 header{
   background: var(--baywa-green);
-  position: relative;
   box-shadow: -1px -1px 10px -2px #829b96;
   margin: 0 0 1.563rem 0;
-  display: block;
-  box-sizing: inherit;
 
   .topbar{
     height: 56px;
@@ -16,13 +13,14 @@ header{
     .topbar-Item{
       float: left;
       display: flex;
-      height: 56px;
-      border-left: 1px solid white;
-      padding: 0 20px;
-      gap: 1rem;
       align-items: center;
       justify-content: center;
       text-align: center;
+      gap: 1rem;
+
+      height: 56px;
+      padding: 0 20px;
+      border-left: 1px solid white;
 
       img{
         height: 2rem;
@@ -52,26 +50,27 @@ header{
       border-left: none;
     }
   }
+}
 
-  .top-navigation{
-    background-color: white;
-    padding: 17px 0 6px 0;
-    margin: 0 auto;
-    
-    .navigation-container{
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
+.top-navigation{
+  background-color: white;
+  padding: 1.25rem;
+}
 
-      img{
-        width: 110px;
-        height: 60px;
-      }
-  
-      p{
-        font-size: 1.2rem;
-        font-family: BayWa-sans-Book;
-      }
-    }
+.navigation-container{
+  margin: 0 auto;
+  max-width: 70rem;
+  gap: 1.25rem;
+  display: flex;
+  align-items: center;
+
+  img{
+    width: 110px;
+    height: auto;
+  }
+
+  p{
+    font-size: 1.2rem;
+    font-family: BayWa-sans-Book;
   }
 }
