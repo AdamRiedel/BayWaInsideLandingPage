@@ -8,7 +8,7 @@ header{
     padding-right: 1rem;
     padding-left: 1rem;
     margin: 0 auto;
-    max-width: 75rem;    
+    max-width: 85rem;    
 
     .topbar-Item{
       float: left;
@@ -59,7 +59,7 @@ header{
 
 .navigation-container{
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 80rem;
   gap: 1.25rem;
   display: flex;
   align-items: center;
