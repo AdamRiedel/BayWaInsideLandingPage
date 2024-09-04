@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: BayWa-sans-Medium;
+  font-family: BayWa-sans-Medium, Arial, Helvetica, sans-serif;
 }
 
 @font-face {
