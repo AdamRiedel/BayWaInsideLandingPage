@@ -69,7 +69,8 @@ header{
     height: auto;
   }
 
-  p{
+  h6{
     font-family: BayWa-sans-Book;
+    font-weight: 200;
   }
 }
