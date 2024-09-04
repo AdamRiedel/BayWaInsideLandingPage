@@ -70,15 +70,13 @@ body{
     .text{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 1.25rem;
 
       .download-info{
         font-family: BayWa-sans-SemiBold;
         font-weight: 200;
-      }
-
-      .info-text{
-        font-size: 20px;
       }
     }  
   }
