@@ -62,8 +62,10 @@ body{
     text-align: center;
     width: 100%;
     background-color: var(--baywa-green);
-    padding: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     color: white;
+    gap: 1.5rem;
 
     .text{
       display: flex;
@@ -127,6 +129,8 @@ body{
           text-align: justify;
           display: block;
           text-align: justify;
+
+          font-weight: normal;
 
           width: 20.8125rem;
           height: 24.6875rem;
