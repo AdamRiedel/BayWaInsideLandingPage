@@ -58,3 +58,11 @@ p{
 small{
   font-size: 0.8rem;
 }
+
+@media (min-width: 720px) {
+  
+}
+
+@media (min-width: 1176px) {
+  
+}
