@@ -116,8 +116,9 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 27.4375rem;
-        height: 33.5rem;
+        width: auto;
+        height: auto;
+        padding: 1.5rem;
         background-color: white;
         gap: 2rem;
 
