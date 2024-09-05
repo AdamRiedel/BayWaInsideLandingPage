@@ -121,6 +121,22 @@ small{
           flex-direction: row;
           flex-wrap: wrap;
         }
+
+        .resp-text{
+          display: none;
+        }
+
+        .info-text{
+          display: flex;
+        }
+      }
+
+      .download-section{
+        .text{
+          .download-info{
+            display: flex;
+          }
+        }
       }
   
       .faq-section{

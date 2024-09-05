@@ -33,10 +33,17 @@ body{
     }
 
     .info-text{
+      display: none;
       text-align: center;
       max-width: 60%;
       font-family: BayWa-sans-Book;
       font-weight: 200;
+    }
+
+    .resp-text{
+      font-family: BayWa-sans-Book;
+      font-weight: 200;
+      margin-left: 1rem
     }
   }
 
@@ -78,9 +85,16 @@ body{
       align-items: center;
       gap: 1.25rem;
 
+      .info-text{
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+      }
+
       .download-info{
         font-family: BayWa-sans-SemiBold;
         font-weight: 200;
+        display: none;
       }
     }  
   }
