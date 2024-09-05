@@ -4,6 +4,7 @@ header{
   margin: 0 0 1.563rem 0;
 
   .topbar{
+    transition: all 0.3s;
     display: none;
   }
 }
