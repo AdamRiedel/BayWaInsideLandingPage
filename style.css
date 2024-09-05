@@ -60,7 +60,58 @@ small{
 }
 
 @media (min-width: 720px) {
-  
+  body{
+    header{
+      .topbar{
+        display: flex;
+        height: 56px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin: 0 auto;
+        max-width: 85rem;    
+    
+        .topbar-Item{
+          float: left;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          gap: 1rem;
+    
+          height: 56px;
+          padding: 0 20px;
+          border-left: 1px solid white;
+    
+          img{
+            height: 2rem;
+            filter: none;
+            transition: filter 0.3s;
+          }
+          
+          a{
+            text-decoration: none;
+            font-size: 1rem;
+            cursor: pointer;
+            color: white;
+          }
+    
+          &:hover{
+            background-color: white;
+            a{
+              color: grey;
+            }
+    
+            img{
+              filter: grayscale(100%) brightness(50%);
+            }
+          }
+        }
+        .topbar-Item:first-child{
+          border-left: none;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 1176px) {
