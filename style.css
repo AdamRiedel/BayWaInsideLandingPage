@@ -112,9 +112,25 @@ small{
         }
       }
     }
-  }
-}
 
-@media (min-width: 1176px) {
+    main{
+      .hero-section{
+        display: flex;
+        .screenshots{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
   
+      .faq-section{
+        display: flex;
+        .faq-container{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
 }
