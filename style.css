@@ -28,27 +28,27 @@
 }
 
 h1{
-  font-size: 3.815rem;
+  font-size: 2.027rem;
 }
 
 h2{
-  font-size: 3.052rem;
+  font-size: 1.802rem;
 }
 
 h3{
-  font-size: 2.441rem;
+  font-size: 1.602rem;
 }
 
 h4{
-  font-size: 1.953rem;
+  font-size: 1.424rem;
 }
 
 h5{
-  font-size: 1.563rem;
+  font-size: 1.266rem;
 }
 
 h6{
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 p{
@@ -56,10 +56,43 @@ p{
 }
 
 small{
-  font-size: 0.8rem;
+  font-size: 0.889rem;
 }
 
 @media (min-width: 720px) {
+  h1{
+    font-size: 3.815rem;
+  }
+  
+  h2{
+    font-size: 3.052rem;
+  }
+  
+  h3{
+    font-size: 2.441rem;
+  }
+  
+  h4{
+    font-size: 1.953rem;
+  }
+  
+  h5{
+    font-size: 1.563rem;
+  }
+  
+  h6{
+    font-size: 1.25rem;
+  }
+  
+  p{
+    font-size: 1rem;
+  }
+  
+  small{
+    font-size: 0.8rem;
+  }
+
+
   body{
     header{
       .topbar{
