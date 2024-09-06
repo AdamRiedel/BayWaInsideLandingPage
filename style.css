@@ -150,5 +150,11 @@ small{
         }
       }
     }
+
+    footer{
+      .footer-contents{
+        justify-content: space-between;
+      }
+    }
   }
 }

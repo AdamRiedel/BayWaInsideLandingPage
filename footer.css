@@ -12,7 +12,8 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     max-width: 1160px;
     margin: 1.35rem auto;
 
