@@ -116,6 +116,9 @@ small{
     main{
       .hero-section{
         display: flex;
+        .welcome-caption{
+          flex-direction: row;
+        }
         .screenshots{
           display: flex;
           flex-direction: row;

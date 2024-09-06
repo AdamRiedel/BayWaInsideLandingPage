@@ -13,10 +13,11 @@ body{
     
     .welcome-caption{
       display: flex;
+      flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
 
-      gap: 1.75rem;
+      gap: 1rem;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       padding-top: 1rem;
