@@ -43,6 +43,7 @@ body{
 
     .resp-text{
       font-family: BayWa-sans-Book;
+      font-size: 1.125rem;
       font-weight: 200;
       margin-left: 1rem
     }
@@ -145,10 +146,10 @@ body{
         gap: 2rem;
 
         .header{
-          display: flex;
-          justify-content: center;
-          align-items: center;
           margin-top: 2rem;
+          span{
+            display: none;
+          }
         }
 
         .faq-text{
@@ -157,9 +158,13 @@ body{
 
           font-weight: normal;
 
-          width: 20.8125rem;
-          height: 24.6875rem;
+          width: 12.125;
+          height: auto;
           color: var(--baywa-darkgrey);
+        }
+
+        span{
+          font-weight: bold;
         }
       }
     }
