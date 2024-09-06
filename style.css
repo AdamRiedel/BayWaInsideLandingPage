@@ -132,7 +132,9 @@ small{
       }
 
       .download-section{
+        gap: 1.5rem;
         .text{
+          gap: 1.25rem;
           .download-info{
             display: flex;
           }

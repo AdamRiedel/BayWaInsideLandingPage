@@ -76,14 +76,12 @@ body{
     padding-top: 2rem;
     padding-bottom: 1rem;
     color: white;
-    gap: 1.5rem;
 
     .text{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1.25rem;
 
       .info-text{
         display: flex;
@@ -101,7 +99,7 @@ body{
 
   .download-button {
     width: 17.75rem;
-    margin-top: 1.25rem;
+    margin-top: 0.625rem;
     font-size: 1.125rem;
     padding: 0.75rem 2rem;
     cursor: pointer;
