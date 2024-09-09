@@ -29,5 +29,6 @@ header{
   h6{
     font-family: BayWa-sans-Book;
     font-weight: normal;
+    display: none;
   }
 }

@@ -76,7 +76,7 @@ body{
     width: 100%;
     background-color: var(--baywa-green);
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     color: white;
 
     .text{
@@ -111,6 +111,7 @@ body{
 
     &:hover{
       background-color: gray;
+      color: white;
     }
 
     &:active{

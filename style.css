@@ -144,6 +144,14 @@ small{
           border-left: none;
         }
       }
+
+      .top-navigation{
+        .navigation-container{
+          h6{
+            display: flex;
+          }
+        }
+      }
     }
 
     main{
