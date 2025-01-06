@@ -150,6 +150,10 @@ small{
           h6{
             display: flex;
           }
+
+          .download-button-top{
+            margin-left: 12rem;
+          }
         }
       }
     }

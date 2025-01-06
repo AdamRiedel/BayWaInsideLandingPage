@@ -31,4 +31,8 @@ header{
     font-weight: normal;
     display: none;
   }
+
+  .download-button-top{
+    margin-left: 2rem;
+  }
 }
