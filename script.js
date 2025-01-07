@@ -1,4 +1,4 @@
-const btn = document.querySelector(".download-button")
+const btn = document.querySelector(".download-button");
 
 btn.addEventListener("click", function() {
   let link = document.createElement("a");

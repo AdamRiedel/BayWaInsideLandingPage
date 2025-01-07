@@ -59,7 +59,7 @@ small{
   font-size: 0.889rem;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 720px){
   h1{
     font-size: 3.815rem;
   }
@@ -172,6 +172,7 @@ small{
 
         .info-text{
           display: flex;
+          margin-bottom: 1rem;
         }
       }
 
