@@ -197,6 +197,7 @@ small{
 
         .info-text{
           display: flex;
+          margin-bottom: 1rem;
         }
       }
 
