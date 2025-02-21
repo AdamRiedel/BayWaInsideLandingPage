@@ -163,7 +163,6 @@ small{
         .screenshots{
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
         }
 
         .resp-text{
